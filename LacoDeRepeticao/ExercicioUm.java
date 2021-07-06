@@ -8,6 +8,7 @@
  */
 
 package LacoDeRepeticao;
+
 import java.util.Scanner;
 
 public class ExercicioUm {
@@ -17,46 +18,46 @@ public class ExercicioUm {
 		double numeroTotalDeFilhos = 0, mediaNumeroDeFilhosPorH, percentHabitantesSalarioMinimo;
 		String novoHabitante;
 		Scanner entrada = new Scanner(System.in);
-		
-		System.out.println("\t\tCadastro novo habitante - Generation :)");
-		
-		for(int x = 1; x <= 20; x++) {
 
-			//Entrada e Calculo de dados
+		System.out.println("\t\tCadastro novo habitante - Generation :)");
+
+		for (int x = 1; x <= 20; x++) {
+
+			// Entrada e Calculo de dados
 			System.out.print("Informe o salário: ");
 			salario = entrada.nextDouble();
 			somaTotalSalarios += salario;
-			
+
 			// Verificando o maior Salario
 			maiorSalario = salario > maiorSalario ? salario : maiorSalario;
-			
+
 			System.out.print("Informe o numero de filhos: ");
 			numeroDeFilhos = entrada.nextInt();
 			numeroTotalDeFilhos += numeroDeFilhos;
-			
+
 			// Contando a quantidade de Habitantes
 			quantidadeDeHabitantes++;
-			quantidadeHabitantesSalarioMinimo = salario <= 1000.00 ? ++quantidadeHabitantesSalarioMinimo : quantidadeHabitantesSalarioMinimo;
-			
+			quantidadeHabitantesSalarioMinimo = salario <= 1000.00 ? ++quantidadeHabitantesSalarioMinimo
+					: quantidadeHabitantesSalarioMinimo;
+
 			System.out.println(quantidadeDeHabitantes + " - " + quantidadeHabitantesSalarioMinimo);
 			System.out.println("Deseja cadastrar novo funcionário? Sim/Não");
 			novoHabitante = entrada.next();
 			if (novoHabitante.equals("Nao") || novoHabitante.equals("nao") || novoHabitante.equals("n"))
 				break;
 		}
-		
+
 		mediaNumeroDeFilhosPorH = numeroTotalDeFilhos / quantidadeDeHabitantes;
 		mediaSalarial = somaTotalSalarios / quantidadeDeHabitantes;
-		percentHabitantesSalarioMinimo = quantidadeHabitantesSalarioMinimo * quantidadeDeHabitantes/100;
-		
+		percentHabitantesSalarioMinimo = quantidadeHabitantesSalarioMinimo * quantidadeDeHabitantes / 100;
+
 		System.out.print("\n\t ----------------- ");
 		System.out.printf("\nMedia salarial: %.2f", mediaSalarial);
 		System.out.printf("\nMedia de numeros de filhos: %.2f", mediaNumeroDeFilhosPorH);
 		System.out.printf("\nMaior salário: %.2f", maiorSalario);
 		System.out.printf("\n%f de pessoas recebem salário minimo", percentHabitantesSalarioMinimo);
 		System.out.print("\n\t ----------------- ");
-		
-		
+
 		System.out.println("Fim");
 	}
 }
