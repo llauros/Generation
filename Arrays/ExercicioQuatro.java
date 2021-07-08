@@ -1,13 +1,13 @@
 /*
- * Faça um programa que leia duas matrizes 2 x 2 com valores reais. Ofereça ao usuário um
-	menu de opções:
+ * Faï¿½a um programa que leia duas matrizes 2 x 2 com valores reais. Ofereï¿½a ao usuï¿½rio um
+	menu de opï¿½ï¿½es:
 	(1) somar as duas matrizes
 	(2) subtrair a primeira matriz da segunda
 	(3) adicionar uma constante as duas matrizes
 	(4) imprimir as matrizes
-	Nas duas primeiras opções uma terceira matriz 2 x 2 deve ser criada. Na terceira opção o valor
-	da constante deve ser lido e o resultado da adição da constante deve ser armazenado na
-	própria matriz.
+	Nas duas primeiras opï¿½ï¿½es uma terceira matriz 2 x 2 deve ser criada. Na terceira opï¿½ï¿½o o valor
+	da constante deve ser lido e o resultado da adiï¿½ï¿½o da constante deve ser armazenado na
+	prï¿½pria matriz.
  */
 package Arrays;
 
@@ -44,28 +44,28 @@ public class ExercicioQuatro {
 				}
 			}
 
-			// Opções para o usuário
-
+			// Opï¿½ï¿½es para o usuï¿½rio
+			
+			do {
 			System.out.print("-----------------------------------------\n\t");
 			System.out.println("O que deseja fazer com as matrizes? :)");
 			System.out.print(
-					"1) Somar\n2) subtrair\n3) Adicionar uma constante as duas\n4) Imprimir\n5) Refazer :(\nOpção: ");
+					"1) Somar\n2) subtrair\n3) Adicionar uma constante as duas\n4) Imprimir\n5) Refazer :(\nOpï¿½ï¿½o: ");
 
 			/*
 			 * 
-			 * ESCOLHA DO USUÁRIO
+			 * ESCOLHA DO USUï¿½RIO
 			 * 
 			 */
 
-			do {
-
 				opcaoComNum = leia.nextInt();
 
-				if (!(opcaoComNum >= 1 && opcaoComNum <= 5))
+				if ( !(opcaoComNum >= 1 && opcaoComNum <= 5) )
 					System.out.println("Parece que digitou incorretamente...\n\n");
+				
 			} while (!(opcaoComNum >= 1 && opcaoComNum <= 5));
 
-			// Operações Somar e subtrair
+			// Operaï¿½ï¿½es Somar e subtrair
 
 			switch (opcaoComNum) {
 			case 1: // SOMANDO AS DUAS MATRIZES
@@ -146,7 +146,7 @@ public class ExercicioQuatro {
 
 		} while (opcaoComNum == 5);
 
-		System.out.println("\nObrigado por utilizar nosso serviços :)");
+		System.out.println("\nObrigado por utilizar nosso serviï¿½os :)");
 
 		leia.close();
 	}
