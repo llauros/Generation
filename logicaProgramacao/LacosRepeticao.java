@@ -1,4 +1,4 @@
-package ClassroomLessons;
+package logicaProgramacao;
 
 import java.util.Scanner;
 

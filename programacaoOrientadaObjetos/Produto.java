@@ -1,4 +1,6 @@
-package objectOrientationProgramming;
+package programacaoOrientadaObjetos;
+
+import java.text.NumberFormat;
 
 public class Produto {
 	private String nome;
@@ -37,6 +39,7 @@ public class Produto {
 	public void mostrarProduto() {
 		System.out.printf("Nome: %s Preco: %d ");
 	}
+	
 
 	/*
 	 * GET SET

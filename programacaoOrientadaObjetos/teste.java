@@ -1,6 +1,6 @@
-package objectOrientationProgramming;
+package programacaoOrientadaObjetos;
 
-import objectOrientationProgramming.Automovel;
+import programacaoOrientadaObjetos.Automovel;
 
 public class teste {
 

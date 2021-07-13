@@ -1,4 +1,4 @@
-package ClassroomLessons;
+package logicaProgramacao;
 
 // Biblioteca para utilizar o Scaneer
 import java.util.Scanner;

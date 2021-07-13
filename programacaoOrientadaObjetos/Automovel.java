@@ -1,4 +1,4 @@
-package objectOrientationProgramming;
+package programacaoOrientadaObjetos;
 
 public class Automovel {
 	private String nomeProprietario;

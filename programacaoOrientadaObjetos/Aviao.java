@@ -1,4 +1,4 @@
-package objectOrientationProgramming;
+package programacaoOrientadaObjetos;
 
 public class Aviao {
 	private String marca;

@@ -1,4 +1,4 @@
-package objectOrientationProgramming;
+package programacaoOrientadaObjetos;
 
 public class Cliente {
 	private String nome;
