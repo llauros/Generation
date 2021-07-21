@@ -1,0 +1,33 @@
+* Usuário
+--- Nome:
+--- Idade:
+--- CPF:
+--- loginEmail:
+--- senha:
+--- Telefone:
+--- Endereco:
+--- Carrinho: (Comprar)
+--- Redes Sociais:
+--- Produtos: (Oferece)
+--- Serviços: (Oferece) 
+
+* Empresas
+
+* Produtos
+--- Nome:
+--- Descricao:
+--- Valor:
+
+
+* Categoria:
+--- Nome: 
+--- 
+
+* Vendas / Notas Fiscais
+--- Cliente: (Nome, CPF)
+--- Produtos: (Nome, Valor Unitário)
+--- Valor da Venda: (R$ 00,00)
+--- Data da cenda
+--- Tipo de venda: (Á vista, Cartão Crédito/Débito, Cheque, Pix)
+
+Rua Luis Vicente de simoni, 287 - Americanópolis - São Paulo - SP
