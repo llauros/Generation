@@ -6,7 +6,7 @@
 • A quantidade de números ímpares digitados.
  */
 
-package Arrays;
+package Java.Arrays;
 
 import java.util.Scanner;
 
